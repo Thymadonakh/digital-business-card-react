@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body { 
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #23252C;
+  color: white;
+}
+
+.App {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+.info--profile {
+  padding-top: 50px;
+}
+.info--name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.info--title {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin: 0;
+}
+
+.info--email {
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.info--btn {
+  display: inline-flex;
+  height: 40px;
+  width: 330px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.info--btn > span {
+  padding: 0 5px;
+}
+.about {
+  text-align: start;
+  padding: 0 35px;
+}
+
+.about--title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about--text {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 10.25px;
+  margin-top: 0;
+}
+
+.interest {
+  text-align: start;
+  padding: 0 35px;
+}
+
+.interest--title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.interest--text {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 10.25px;
+  margin-top: 0;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+footer > a > img {
+  padding: 0 6px;
 }
